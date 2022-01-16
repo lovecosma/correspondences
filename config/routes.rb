@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: "application#wwelcome"
+  root to: "application#welcome"
   resources :intentions
   resources :correspondences
   resources :categories
