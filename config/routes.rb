@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root to: "application#wwelcome"
   resources :intentions
   resources :correspondences
   resources :categories
